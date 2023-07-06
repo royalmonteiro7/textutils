@@ -35,6 +35,9 @@ export default function Navbar(props) {
               </Link>
             </li>
           </ul>
+          <div className="d-flex">
+
+          </div>
           <div
             className={`form-check form-switch text-${
               props.mode === "light" ? "dark" : "light"
